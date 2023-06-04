@@ -1,0 +1,20 @@
+.contact {
+    background-color: var(--item-bg-color);
+    padding: 5px 50px;
+    padding-bottom: 90px;
+    border-radius: 20px;
+}
+.contact h2 {
+    text-align: center;
+    color: var(--item-h2-color);
+    font-size: 32px;
+    margin-top: 10px;
+    margin-bottom: 55px;
+}
+
+.contact p {
+    color: var(--item-p-col);
+    font-size: 22px;
+    margin: 0px;
+    margin-top: 15px;
+}
