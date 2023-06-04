@@ -5,6 +5,7 @@ import createPage from "./modules/createPage.js";
 import clearPage from "./modules/clearContent.js";
 import homePage from "./pages/Home/homePage.js";
 import menuPage from "./pages/Menu/menuPage.js";
+import contactPage from "./pages/Contact/contactPage.js";
 
 createHeader();
 createPage();
@@ -24,4 +25,9 @@ homeBtn.addEventListener("click", function () {
 menuBtn.addEventListener("click", function () {
     clearPage();
     menuPage();
+});
+
+contactBtn.addEventListener("click", function () {
+    clearPage();
+    contactPage();
 });
